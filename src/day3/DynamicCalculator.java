@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class DynamicCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Enter the first number: ");
         double first_number = scanner.nextDouble();
         System.out.println("Enter the second number: ");

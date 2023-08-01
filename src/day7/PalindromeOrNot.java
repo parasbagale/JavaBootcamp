@@ -2,21 +2,21 @@ package day7;
 
 import java.util.Scanner;
 
-public class PalindromOrNot {
+public class PalindromeOrNot {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a word");
         String original = scanner.nextLine();
 
-         String reverse = " ";
+         String rev = "";
 
          for ( int i= original.length() - 1; i>=0; i--){
-             reverse = reverse + original.charAt(i);
+             rev = rev + original.charAt(i);
 
          }
-         //System.out.println(reverse);
-        if(original.equals(reverse))
+         //System.out.println(rev);
+        if(original.equals(rev))
         {
             System.out.println(original + " Is palindrome");
         }else{
