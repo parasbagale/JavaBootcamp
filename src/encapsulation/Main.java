@@ -11,5 +11,6 @@ public class Main {
 
         car.setYear(2022);
         System.out.println(car.getYear());
+
     }
 }
